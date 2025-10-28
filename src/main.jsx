@@ -8,7 +8,8 @@ import Skill from './Skill.jsx'
 import RadioDropdown from './Radio&dropdown.jsx'
 import LoopExample from './Loop.jsx'
 import Reusecomponent from './Reusecomponent.jsx'
-import Clock from './clock.jsx'
+import UseEffectPropUsedCase from './UseEffectPropUsedCase.jsx'
+import AppCounterEffectEx from './AppCounterEffectEx.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,8 +18,10 @@ createRoot(document.getElementById('root')).render(
       {/* <User/> */}
       <Counter/>
       <Skill/>
+      <UseEffectPropUsedCase/>
       <RadioDropdown/>
       <LoopExample/>
       <Reusecomponent/>
+      <AppCounterEffectEx/>
   </StrictMode>
 )
