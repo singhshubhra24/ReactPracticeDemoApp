@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import User from './User.jsx'
+// import User from './User.jsx'
 import Counter from './Counter.jsx'
 import Skill from './Skill.jsx'
 import RadioDropdown from './Radio&dropdown.jsx'
@@ -11,6 +11,7 @@ import Reusecomponent from './Reusecomponent.jsx'
 import UseEffectPropUsedCase from './UseEffectPropUsedCase.jsx'
 import AppCounterEffectEx from './AppCounterEffectEx.jsx'
 import CssStyleExample from './CssStyleExample.jsx'
+import Userprofile from './Userprofile.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,5 +26,6 @@ createRoot(document.getElementById('root')).render(
       <Reusecomponent/>
       <AppCounterEffectEx/>
       <CssStyleExample/>
+      <Userprofile/>
   </StrictMode>
 )

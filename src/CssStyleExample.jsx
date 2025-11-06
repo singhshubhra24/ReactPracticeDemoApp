@@ -1,5 +1,6 @@
-import assets from './assets/pexels-pixabay-257540.jpg';
+// import assets from './assets/pexels-pixabay-257540.jpg';
 import { useState } from 'react';
+import  "./css/style.css";
 // Make Button for Dynamic Style
 
 function CssStyleExample(){
@@ -19,14 +20,14 @@ function CssStyleExample(){
 
  return(
     <>
-    <h1 style={{color : "red", backgroundColor: "grey"}}>This is an example of inline css in this component</h1>
+    <h1 className="heading" /*style={{color : "red", backgroundColor: "grey"}}*/>This is an example of inline css in this component</h1>
     <button onClick={()=>updateTheme('#ccc', 'green')}>Grey Theme</button>
     <button onClick={()=>updateTheme('white','black')}>Default Theme</button>
     <button onClick={()=>{setGrid(!grid)}}>Toggle Grid</button>
 
-    <div style ={{display: grid?'flex':'block', gap: "20px", flexWrap:"wrap"}}>
-    <div style ={cardStyle}>
-        <img style={{width:"200px", padding:"2px"}} src={"pexels-pixabay-257540.jpg"} alt="dog image" />
+    <div className="block-style" style ={{display: grid?'flex':'block'}}>
+    <div style ={cardStyle} >
+        <img className="img-style" /*style={{width:"200px", padding:"2px"}}*/ src={"pexels-pixabay-257540.jpg"} alt="dog image" />
         <div style={{color:textColor}}>
             <h3>Shubhra Singh</h3>
             <p>Software Engineer</p>

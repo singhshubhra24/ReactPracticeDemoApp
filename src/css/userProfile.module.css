@@ -1,0 +1,23 @@
+.heading{
+    color : red;
+    background-color : grey;
+}
+.img{
+    width:200px; 
+    padding:20px
+}
+.textColor{
+    color:blue;
+}
+.cardStyle{
+    border:2px solid black;
+    width:250px;
+    text-align:center;
+    box-shadow: 5px 10px #888888;
+    margin:20px;
+    padding:10px;
+    border-radius:10px;}
+    .toggleGrid{
+        display:flex;
+        flex-wrap:wrap;
+    }
