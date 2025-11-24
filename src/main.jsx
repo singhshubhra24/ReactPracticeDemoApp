@@ -18,6 +18,8 @@ import Userprofile from './Userprofile.jsx'
 import BootstrapDemoExam from './BootstrapDemoExam.jsx'
 import UseRefExampleCode from './UseRefExampleCode.jsx'
 import UncontrolledComponent from './UncontrolledExample.jsx'
+import LiftingStateParent from "./liftingStateParent.jsx"
+import UpdatingObjectInState from './UpdatingObjecArraytInState.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -36,5 +38,7 @@ createRoot(document.getElementById('root')).render(
       <BootstrapDemoExam/>
       <UseRefExampleCode/>
       <UncontrolledComponent/>
+      <LiftingStateParent/>/
+      <UpdatingObjectInState/>
   </StrictMode>
 )
